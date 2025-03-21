@@ -76,7 +76,7 @@ This section describes the steps required to reproduce the experimental results 
 
 #### 1. Set Up the CEB-1a-varied Directory
 
-Navigate to the [ceb-1a-varied](CEB-1a-varied) directory:
+Navigate to the [ceb-1a-varied](CEB-1a-varied) directory.
 
 
 #### 2. Download and Extract the Workload
