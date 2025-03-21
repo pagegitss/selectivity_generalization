@@ -109,7 +109,7 @@ Preprocessing the workload can be slow. To save time, follow these steps:
 To reproduce the experimental results, return to the [ceb-1a-varied](ceb-1a-varied) directory and run the following commands:
 
 ```sh
-python train_MSCN_ceb_1a-varied.py
+python train_MSCN_ceb-1a-varied.py
 python train_MSCN+SeConCDF_ceb-1a-varied.py
 ```
 
