@@ -76,7 +76,7 @@ This section describes the steps required to reproduce the experimental results 
 
 #### 1. Set Up the CEB-1a-varied Directory
 
-Navigate to the [ceb-1a-varied](CEB-1a-varied) directory.
+Navigate to the [ceb-1a-varied](ceb-1a-varied) directory.
 
 
 #### 2. Download and Extract the Workload
@@ -84,7 +84,7 @@ Navigate to the [ceb-1a-varied](CEB-1a-varied) directory.
 Due to GitHub's file size limits, the **ceb-1a-varied** workload must be downloaded separately. Follow these steps:
 
 - Download the zipped directory from [this link](https://drive.google.com/file/d/1y_OUoiwbZPvboPR-kFC4xg9Ue0KPhQ58/view?usp=sharing).
-- Extract the directory (named ceb-1a-varied-queries) under the [ceb-1a-varied](CEB-1a-varied) directory.
+- Extract the directory (named ceb-1a-varied-queries) under the [ceb-1a-varied](ceb-1a-varied) directory.
 
 #### 3. Download and Load CSV Tables
 
@@ -103,10 +103,10 @@ The experiments require a set of CSV tables for bitmap computation. Follow these
 Preprocessing the workload can be slow. To save time, follow these steps:
 
 - Download the preprocessed `.pkl` file from [this link](https://drive.google.com/file/d/1xnBv3N8RizaJTHB1_CyJJFrwoxu9jObE/view?usp=sharing).
-- Extract the file and place it inside the [ceb-1a-varied/mscn](CEB-1a-varied/mscn)  directory. This will significantly reduce preprocessing time.
+- Extract the file and place it inside the [ceb-1a-varied/mscn](ceb-1a-varied/mscn)  directory. This will significantly reduce preprocessing time.
 
 #### 5. Train and Evaluate Models
-To reproduce the experimental results, return to the [ceb-1a-varied](CEB-1a-varied) directory and run the following commands:
+To reproduce the experimental results, return to the [ceb-1a-varied](ceb-1a-varied) directory and run the following commands:
 
 ```sh
 python train_MSCN_ceb_1a-varied.py
